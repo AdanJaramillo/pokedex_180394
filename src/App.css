@@ -2,6 +2,44 @@
   text-align: center;
 }
 
+.flex-cotainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.nom{
+  background-color: #F5F5F5;
+  height: 220px;
+  width: 300px;
+        margin: 30px;
+        border: 10px solid;
+}
+
+.poke-image {
+  height: 40vmin;
+  pointer-events: none;
+}
+.button {
+  margin: 5px;
+  cursor: pointer;
+  width: 15vw;
+  height: 5vh;
+  background-color: #d12929;
+  color: white;
+  border: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.text{
+  background-color: #F5F5F5;
+  height: 100px;
+  width: 150px;
+        margin: 30px;
+        border: 10px solid;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,14 +52,17 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #F5F5F5;
+  background-image: url("pokemon-unite_1920x1080_xtrafondos.com.jpg");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(240, 10, 10);
+  margin: 10px 20px;
+  font-style:oblique;
 }
 
 .App-link {
