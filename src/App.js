@@ -33,7 +33,7 @@ function App() {
   const getRandomInt = (min = 1, max = 600) => {
   return Math.floor(Math.random() * (max - min) + min);
   };
-  
+
   const add=(min=1,max=600)=>{
 
     if(pokemon.id >=max){
@@ -65,7 +65,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="flex-cotainer">
-        <a className="alignCentral" href="https://github.com/AdanJaramillo/Pokedex">Github</a>
+        <a className="alignCentral" href="https://github.com/AdanJaramillo/pokedex_180394">Github</a>
         <img
         src= {pokemon?.sprites?.back_default ?? logo }
         className="poke-image" 
